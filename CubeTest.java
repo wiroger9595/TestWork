@@ -11,7 +11,7 @@ public class CubeTest {
 		
 		 
 		try {
-				Cube cu = new Cube(-5.00, -9.00);
+				Cube cu = new Cube(-50.00, -15.00);
 				cu.setLength(2);
 				System.out.println(cu.Volume());
 		} catch (CubeException ee) {
